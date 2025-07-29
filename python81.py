@@ -17,3 +17,6 @@ occurrences_of_three = my_array.count(3)
 print(f"Number of occurrences of 3: {occurrences_of_three}")
 reversed_array = my_array[::-1]
 print(f"Reversed array: {reversed_array}")
+a = {1, 2, 3, 4, 5, 6, 7, 8, 9}
+b={9,8,7,3,5,1,2,6}
+print(a.difference(b))
